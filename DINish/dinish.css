@@ -1,0 +1,395 @@
+/* DINish Font Family - Regular Width */
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-HeavyItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINish-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+/* DINish Condensed - Condensed Width */
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-HeavyItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishCondensed-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* DINish Expanded - Expanded Width */
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-HeavyItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINish';
+  src: url('DINishExpanded-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: expanded;
+  font-display: swap;
+}
+
+/* Utility classes for specific font variants */
+.dinish-condensed {
+  font-stretch: condensed;
+}
+
+.dinish-expanded {
+  font-stretch: expanded;
+}
+
+/* Example usage */
+body {
+  font-family: 'DINish', sans-serif;
+  font-weight: 400;
+}
