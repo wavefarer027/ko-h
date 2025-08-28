@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: var(--default-font);
+    font-family: var(--default-font) !important;
     color: var(--white);
     margin: 0;
     padding: 0;
