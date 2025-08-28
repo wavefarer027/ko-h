@@ -6,7 +6,7 @@
     --black: #222222;
 }
 
-body {
+p {
     font-family: var(--default-font) !important;
     color: var(--white);
     margin: 0;
