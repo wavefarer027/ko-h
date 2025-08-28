@@ -1,7 +1,15 @@
 @import url(DINish/dinish.css);
 
 :root {
-    --default-font: 'Roboto', sans-serif;
+    --default-font: 'DINish', sans-serif;
+    --white: #CECECE;
     --black: #222222;
+}
 
+body {
+    font-family: var(--default-font);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
