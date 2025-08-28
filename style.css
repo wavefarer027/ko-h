@@ -7,7 +7,7 @@
 }
 
 p {
-    font-family: var(--default-font) !important;
+    font-family: 'DINish', sans-serif;
     color: var(--white);
     margin: 0;
     padding: 0;
