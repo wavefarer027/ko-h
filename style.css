@@ -1,4 +1,4 @@
-@import url(Dinish.css);
+@import url('DINish.css');
 @import url('FiraCode.css');
 
 :root {
@@ -13,11 +13,13 @@
 body {
     background-color: var(--black);
     font-family: 'Fira Code', sans-serif !important;
-    font-weight: var(--font-weight-base);
+    font-style: normal;
+    font-weight: 400;
     font-size: var(--font-size-base);
     color: var(--white);
 }
 
 h1 {
     font-size: var(--font-size-h1);
+    font-weight: 600;
 }
