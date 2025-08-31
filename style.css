@@ -1,7 +1,9 @@
-@import url(DINish/dinish.css);
+@import url(dinish.css);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 :root {
     --default-font: 'DINish', sans-serif;
+    --font-weight-base: 400;
     --font-size-base: 16px;
     --font-size-h1: 2rem;
     --white: #CECECE;
@@ -10,7 +12,8 @@
 
 body {
     background-color: var(--black);
-    font-family: 'DINish', sans-serif !important;
+    font-family: 'Fira Code', sans-serif !important;
+    font-weight: var(--font-weight-base);
     font-size: var(--font-size-base);
     color: var(--white);
 }
