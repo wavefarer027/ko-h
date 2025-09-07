@@ -1,3 +1,4 @@
+@import url('header.css');
 @import url('DIN-Pro.css');
 @import url('FiraCode.css');
 
@@ -11,6 +12,7 @@
     /* colours */
     --white: #CECECE;
     --black: #222222;
+    --blue: #2784BC;
 }
 
 body {
@@ -24,6 +26,11 @@ body {
 
     /* layout */
     margin: 20px;
+}
+
+a {
+    color: var(--blue);
+    text-decoration: none;
 }
 
 h1 {

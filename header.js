@@ -10,7 +10,9 @@ class SiteHeader {
 
     init() {
         // Set up mobile menu toggle
-        this.mobileToggle.addEventListener('click', () => this.toggleMobileMenu());
+        if (this.mobileToggle) {
+            this.mobileToggle.addEventListener('click', () => this.toggleMobileMenu());
+        }
         
         // Close mobile menu when clicking on links
         this.navLinks.forEach(link => {
@@ -26,16 +28,27 @@ class SiteHeader {
                 this.closeMobileMenu();
             }
         });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.site-header')) {
+                this.closeMobileMenu();
+            }
+        });
     }
 
     toggleMobileMenu() {
-        this.mobileToggle.classList.toggle('active');
-        this.navMenu.classList.toggle('active');
+        if (this.mobileToggle && this.navMenu) {
+            this.mobileToggle.classList.toggle('active');
+            this.navMenu.classList.toggle('active');
+        }
     }
 
     closeMobileMenu() {
-        this.mobileToggle.classList.remove('active');
-        this.navMenu.classList.remove('active');
+        if (this.mobileToggle && this.navMenu) {
+            this.mobileToggle.classList.remove('active');
+            this.navMenu.classList.remove('active');
+        }
     }
 
     setActivePage() {
@@ -62,7 +75,9 @@ class SiteHeader {
         if (page === 'about.html') return 'about';
         if (page === 'contact.html') return 'contact';
         
-        return 'index'; // Default fallback
+        // Handle pages without .html extension
+        const pageName = page.replace('.html', '');
+        return pageName || 'index'; // Default fallback
     }
 }
 
@@ -70,15 +85,69 @@ class SiteHeader {
 async function loadHeader() {
     try {
         const response = await fetch('header.html');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const headerHTML = await response.text();
-        document.getElementById('header-placeholder').innerHTML = headerHTML;
+        const headerPlaceholder = document.getElementById('header-placeholder');
         
-        // Initialize header functionality after loading
-        new SiteHeader();
+        if (headerPlaceholder) {
+            headerPlaceholder.innerHTML = headerHTML;
+            
+            // Initialize header functionality after loading
+            new SiteHeader();
+        } else {
+            console.warn('Header placeholder not found. Make sure you have <div id="header-placeholder"></div> in your HTML.');
+        }
     } catch (error) {
         console.error('Error loading header:', error);
+        // Fallback: you could create a basic header here if needed
+    }
+}
+
+// Alternative method: Include header directly (if you prefer not to use fetch)
+function insertHeaderDirectly() {
+    const headerHTML = `
+        <header class="site-header" id="site-header">
+            <div class="header-container">
+                <a href="index.html" class="logo">Ko H.</a>
+                
+                <nav>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="index.html" class="nav-link" data-page="index">Home</a></li>
+                        <li><a href="photo.html" class="nav-link" data-page="photo">Gallery</a></li>
+                        <li><a href="about.html" class="nav-link" data-page="about">About</a></li>
+                        <li><a href="contact.html" class="nav-link" data-page="contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+    `;
+    
+    const headerPlaceholder = document.getElementById('header-placeholder');
+    if (headerPlaceholder) {
+        headerPlaceholder.innerHTML = headerHTML;
+        new SiteHeader();
     }
 }
 
 // Initialize when DOM is loaded
-document.addEventListener('DOMContentLoaded', loadHeader);
+document.addEventListener('DOMContentLoaded', () => {
+    // Try to load header from file first, fallback to direct insertion
+    loadHeader().catch(() => {
+        console.log('Falling back to direct header insertion');
+        insertHeaderDirectly();
+    });
+});
+
+// Export for use in other files
+if (typeof window !== 'undefined') {
+    window.SiteHeader = SiteHeader;
+    window.loadHeader = loadHeader;
+}
