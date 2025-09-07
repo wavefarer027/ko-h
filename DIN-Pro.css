@@ -1,0 +1,190 @@
+/* DIN Pro Regular */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Italic */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Light */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Light Italic */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_lightitalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Medium */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Medium Italic */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_mediumitalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Bold */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Bold Italic */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_bolditalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Black */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Black Italic */
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_blackitalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Regular */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedregular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Italic */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condenseditalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Light */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedlight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Light Italic */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedlightitalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Medium */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedmedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Medium Italic */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedmediumitalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Bold */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedbold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Bold Italic */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedbolditalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Black */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedblack.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIN Pro Condensed Black Italic */
+@font-face {
+  font-family: 'DIN Pro Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/wavefarer027/ko-h@main/DIN-Pro/dinpro_condensedblackitalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Usage Examples:
+body {
+  font-family: 'DIN Pro', sans-serif;
+}
+
+h1 {
+  font-family: 'DIN Pro Condensed', sans-serif;
+  font-weight: 700;
+}
+*/
