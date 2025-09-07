@@ -1,22 +1,29 @@
-@import url('DINish.css');
+@import url('DIN-Pro.css');
 @import url('FiraCode.css');
 
 :root {
-    --default-font: 'DINish', sans-serif;
+    /* fonts */
+    --default-font: 'DIN Pro', sans-serif;
     --font-weight-base: 400;
     --font-size-base: 16px;
     --font-size-h1: 2rem;
+
+    /* colours */
     --white: #CECECE;
     --black: #222222;
 }
 
 body {
+    /* fonts */
     background-color: var(--black);
-    font-family: 'Fira Code', sans-serif !important;
+    font-family: var(--default-font) !important;
     font-style: normal;
     font-weight: 400;
     font-size: var(--font-size-base);
     color: var(--white);
+
+    /* layout */
+    margin: 20px;
 }
 
 h1 {
