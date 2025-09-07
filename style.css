@@ -12,7 +12,8 @@
     /* colours */
     --white: #CECECE;
     --black: #222222;
-    --blue: #2784BC;
+    --accent: #2784BC;
+    --hover: #6BB6FF;
 }
 
 body {
