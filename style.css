@@ -3,7 +3,7 @@
 
 :root {
     /* fonts */
-    --default-font: 'DIN Pro', sans-serif;
+    --default-font: 'DIN Pro';
     --font-weight-base: 400;
     --font-size-base: 16px;
     --font-size-h1: 2rem;
@@ -16,7 +16,7 @@
 body {
     /* fonts */
     background-color: var(--black);
-    font-family: var(--default-font) !important;
+    font-family: var(--default-font), sans-serif !important;
     font-style: normal;
     font-weight: 400;
     font-size: var(--font-size-base);
