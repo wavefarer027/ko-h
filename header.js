@@ -106,6 +106,7 @@ async function loadHeader() {
 }
 
 // Alternative method: Include header directly (if you prefer not to use fetch)
+/* FIXME: Uncomment to use direct insertion fallback
 function insertHeaderDirectly() {
     const headerHTML = `
         <header class="site-header" id="site-header">
@@ -136,13 +137,15 @@ function insertHeaderDirectly() {
         new SiteHeader();
     }
 }
+*/
 
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Try to load header from file first, fallback to direct insertion
     loadHeader().catch(() => {
         console.log('Falling back to direct header insertion');
-        insertHeaderDirectly();
+        // FIXME: uncomment to use direct insertion fallback
+        // insertHeaderDirectly();
     });
 });
 
