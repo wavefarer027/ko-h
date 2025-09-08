@@ -25,6 +25,8 @@
     color: var(--white);
     text-decoration: none;
     transition: color 0.3s ease;
+    width: 36px;
+    height: 36px;
 }
 
 .logo:hover {
